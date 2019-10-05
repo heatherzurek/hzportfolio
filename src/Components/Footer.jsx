@@ -4,7 +4,7 @@ export default function Footer() {
     return(
         <div>
             <footer>
-            © Heather Zurek 2019 | <span class='highlight-two'>Powered by Yerba Mate</span>
+            © Heather Zurek 2019 | <span class='highlight'>Powered by Yerba Mate</span>
             </footer>
         </div>
     );
