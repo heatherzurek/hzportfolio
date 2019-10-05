@@ -31,13 +31,12 @@ hr {
   width: 80px;
 }
 a {
-  color: #b373da;
+  color: #5bc79f;
   text-decoration: none;
   text-transform: uppercase;
 }
 a:hover{
-  font-weight: bold;
-  color: #5bc79f;
+  color: #b373da;
 }
 img {
   margin: 0 15px;

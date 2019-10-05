@@ -17,7 +17,7 @@ export default function Projects() {
                 to choose the time of year, where they'll be going and it will suggest packing lists based on their
                 selections. Created on a three person team, my contributions included UI/UX, and JavaScript logic. Stack:
                 JavaScript, jQuery, HTML, CSS</p>
-            <a href="https://settlers-ofcatan.firebaseapp.com/">Catan</a>
+            <a href="https://settlers-ofcatan.firebaseapp.com/">Settlers of Catan</a>
             <p>A functional webbased multi-player game, based on the board game Settlers of Catan. Group porject with 4 team
                 mates, done in 3 days. My contribution was mainly design and CSS focused. Stack: Angular, JavaScript, HTML, CSS</p>
             <a href="https://warm-er.firebaseapp.com/#/">Warmer</a>
