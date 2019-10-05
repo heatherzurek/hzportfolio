@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -5,9 +8,70 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  color: black;
+  font-family: 'Space Mono', monospace;
+  margin: 45 15 45 15px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.box{
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+.highlight {
+  color: #5bc79f;
+}
+.highlight-two {
+  color: #8273da;
+}
+.highlight-three {
+  color: #76c7d2;
+}
+hr {
+  margin-top: 30px;
+  border-width: 0;
+  border-top: 2px solid #222;
+  width: 80px;
+}
+a {
+  color: #76c7d2;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover{
+  font-weight: bold;
+  color: #5bc79f;
+}
+img {
+  margin: 0 15px;
+}
+.techStack {
+  display: flex;
+  flex-direction: column;
+}
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+}
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+  .box {
+      width: 100%
+  }
 }
