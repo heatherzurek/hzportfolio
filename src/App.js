@@ -12,7 +12,6 @@ function App() {
   return (
     <div className="box">
       <Intro />
-      <Links />
       <About />
       <Stack />
       <Projects />

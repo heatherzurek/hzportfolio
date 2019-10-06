@@ -24,6 +24,9 @@ code {
 .highlight {
   color: #d973da;
 }
+.highlight-2 {
+  color: #fdfd3c;
+}
 hr {
   margin-top: 30px;
   border-width: 0;
@@ -41,15 +44,12 @@ a:hover{
 img {
   margin: 0 15px;
 }
+.helloHeather {
+  margin-top: -30px;
+}
 .techStack {
   display: flex;
   flex-direction: column;
-}
-.socialLinks {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 40px;
 }
 .projectBg {
   background-color: #24335a;
