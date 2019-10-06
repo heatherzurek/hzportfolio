@@ -4,7 +4,7 @@ export default function Stack() {
     return(
         <div class="techStack">
             <h2>Tech Stack</h2>
-            <span>JavaScript</span>
+            <span>JavaScript</span> 
             <span>Node.js</span>
             <span>React</span>
             <span>C#</span>

@@ -22,7 +22,7 @@ code {
   margin: 0 auto;
 }
 .highlight {
-  color: #b373da;
+  color: #d973da;
 }
 hr {
   margin-top: 30px;
@@ -31,13 +31,12 @@ hr {
   width: 80px;
 }
 a {
-  margin: 10px;
   color: #5bc79f;
   text-decoration: none;
   text-transform: uppercase;
 }
 a:hover{
-  color: #b373da;
+  color: #d973da;
 }
 img {
   margin: 0 15px;
