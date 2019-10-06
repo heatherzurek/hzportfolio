@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect, useRef } from "react";
 import ReactDOM from "react-dom";
 import useTypewriter from "react-typewriter-hook";
-import "./styles.css";
+import "../styles.css";
 
 const Typewriter = [
   "Heather Zurek",
