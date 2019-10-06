@@ -27,7 +27,7 @@ export default function Name() {
   }, [typedName]);
   return (
     <div>
-      <h1 className="cursor"><span class="highlight-2">`</span>{name}<span class="highlight-2">`</span></h1>
+      <h1 className="cursor"><span class="highlight-3">.</span>{name}</h1>
     </div>
   );
 }
