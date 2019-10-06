@@ -31,6 +31,7 @@ hr {
   width: 80px;
 }
 a {
+  margin: 10px;
   color: #5bc79f;
   text-decoration: none;
   text-transform: uppercase;
@@ -50,6 +51,11 @@ img {
   flex-direction: row;
   justify-content: center;
   margin-top: 40px;
+}
+.projectBg {
+  background-color: #24335a;
+  margin-bottom: 20px;
+  padding: 15px;
 }
 footer {
   margin-top: 40px;
