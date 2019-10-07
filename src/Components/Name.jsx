@@ -5,14 +5,14 @@ import useTypewriter from "react-typewriter-hook";
 import "../styles.css";
 
 const Typewriter = [
-  "Heather Zurek",
-  "Heather Zurek",
+  "Heather Zurek!",
+  "Heather Zurek!",
   
 ];
 let index = 0;
 
 export default function Name() {
-  const [typedName, settypedName] = useState("Heather Zurek");
+  const [typedName, settypedName] = useState("Heather Zurek!");
   const intervalRef = useRef({});
   const name = useTypewriter(typedName);
   useEffect(() => {
