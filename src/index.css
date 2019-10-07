@@ -48,9 +48,9 @@ img {
 .helloHeather {
   margin-top: -30px;
 }
-.aboutMe {
+.paraFormat {
   text-align: justify;
-  padding: 5px
+  padding: 10px
 }
 .techStack {
   display: flex;
