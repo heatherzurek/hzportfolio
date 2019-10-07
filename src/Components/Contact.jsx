@@ -5,6 +5,8 @@ export default function Contact(){
         <div>
             <h2>Get in Touch</h2>
             <p>Do you have questions? Want to grab coffee and chat? Let's connect!</p>
+            <hr/>
+            <br/>
         </div>
     );
 }

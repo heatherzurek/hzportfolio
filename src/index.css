@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 
-
 body {
   margin: 55px 10px 55px 10px;
   -webkit-font-smoothing: antialiased;
@@ -9,7 +8,6 @@ body {
   color: #EEEEEE;
   font-family: 'Space Mono', monospace;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -58,6 +56,11 @@ img {
   background-color: #24335a;
   margin-bottom: 20px;
   padding: 10px;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 footer {
   margin-top: 40px;
