@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 
 body {
-  margin: 70px 10px 55px 10px;
+  margin: 75px 10px 55px 10px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #152347;
@@ -11,6 +11,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+img {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
 }
 .box {
   width: 75%;
