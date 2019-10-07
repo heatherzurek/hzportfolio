@@ -48,6 +48,10 @@ img {
 .helloHeather {
   margin-top: -30px;
 }
+.aboutMe {
+  text-align: justify;
+  padding: 5px
+}
 .techStack {
   display: flex;
   flex-direction: column;
