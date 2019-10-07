@@ -52,6 +52,13 @@ img {
   text-align: justify;
   padding: 10px
 }
+.faChev {
+  padding: 25px;
+  color: #fdfd3c;
+}
+.stackFormat {
+  padding: 10px;
+}
 .techStack {
   display: flex;
   flex-direction: column;

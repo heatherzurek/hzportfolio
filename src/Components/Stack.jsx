@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 export default function Stack() {
     return(
@@ -14,6 +16,7 @@ export default function Stack() {
             <span>SQL</span>
             <span>Jest</span>
             <span>and always learning!</span>
+            <p class="faChev"><FontAwesomeIcon icon={ faChevronDown } size="lg"/></p>
         </div>
     );
 }
