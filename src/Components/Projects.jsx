@@ -6,6 +6,7 @@ export default function Projects() {
     return(
         <div>
             <h2>Projects</h2>
+        <div class="projSection"> 
             <div class="projectBg">
             <h3><a href="https://npsclone.firebaseapp.com/">National Park Service Clone</a></h3>
             <p class="paraFormat">This site allows you to see a list of the States and their co-ordinating national parks, in the future you
@@ -43,6 +44,7 @@ export default function Projects() {
                 able to track their impact on the environment.</p>
                 <p class="stackFormat">Stack: <span class="highlight-2">React, Node.js, HTML, CSS, Material</span></p>
                 <p><a href="https://github.com/heatherzurek/warmer">View Code</a></p>
+            </div>
             </div>
             <p>You can view more on my <a href="www.github.com/heatherzurek">Github</a></p>
             <p class="faChev"><FontAwesomeIcon icon={ faChevronDown } size="lg"/></p>
