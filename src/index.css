@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 
 body {
-  margin: 75px 10px 55px 10px;
+  margin: 70px 10px 55px 10px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #152347;
+  /* background-color: #152347; */
+  background-color: #171d2d;
+
+  
+  
   color: #EEEEEE;
   font-family: 'Space Mono', monospace;
 }
@@ -69,7 +73,8 @@ img {
   flex-direction: column;
 }
 .projectBg {
-  background-color: #24335a;
+  /* background-color: #24335a; */
+  background-color: #28314a;
   margin-bottom: 30px;
   padding: 10px;
 }
