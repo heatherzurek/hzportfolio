@@ -13,16 +13,14 @@ export default function Projects() {
             <h2>Projects</h2>
         <div class="projSection"> 
             <div class="projectBg">
-            <h3><a href="https://npsclone.firebaseapp.com/">National Park Service Clone</a></h3>
             <img src={npsclone} />
             <p class="paraFormat">This site allows you to see a list of the States and their co-ordinating national parks, in the future you
                 will be able to route to different pages in additional to the state and national parks page to learn more
                 about the national park.</p> 
                 <p class="stackFormat">Stack: <span class="highlight-2">Angular, TypeScript, HTML, CSS</span></p>
-                <a href="https://github.com/heatherzurek/angular-nps-clone">View Code</a>
+                <a href="https://github.com/heatherzurek/angular-nps-clone">View Code</a> | <a href="https://npsclone.firebaseapp.com/">View Deployed Site</a>
             </div>
             <div class="projectBg">
-            <h3><a href="https://github.com/heatherzurek/pupster">Pupster</a></h3>
             <img src={pupster} />
             <p class="paraFormat">A web application that uses a quiz to query shelter pet profiles from a relational database and return
                 matches to users. Created on a four person team, my contributions included UI/UX, Database Calls and MVC
@@ -31,14 +29,14 @@ export default function Projects() {
                 <a href="https://github.com/heatherzurek/pupster">View Code</a>
             </div>
             <div class="projectBg">
-           <h3><a href="https://heatherzurek.github.io/wanderlist-camping/">Wanderlist</a></h3>
            <img src={wanderlist1} />
            <img src={wanderlist2} />
                 <p class="paraFormat">A web application that helps the user pack for camping trips based on terrain and season. It allows the user
                 to choose the time of year, where they'll be going and it will suggest packing lists based on their
                 selections. Created on a three person team, my contributions included UI/UX, and JavaScript logic.</p>
                 <p class="stackFormat">Stack: <span class="highlight-2">JavaScript, jQuery, HTML, CSS</span></p>
-                <a href="https://github.com/heatherzurek/wanderlist-camping">View Code</a>
+                <a href="https://github.com/heatherzurek/wanderlist-camping">View Code</a> | <a href="https://heatherzurek.github.io/wanderlist-camping/">View Deployed Site</a>
+
             </div>
             <div class="projectBg">
             <h3><a href="https://settlers-ofcatan.firebaseapp.com/">Settlers of Catan</a></h3>

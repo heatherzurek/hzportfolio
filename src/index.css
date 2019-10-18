@@ -4,8 +4,9 @@ body {
   margin: 70px 10px 55px 10px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #000000;
-  color: #F3EFE0;
+  background-color: #181818;
+  color: #EEEEEE;
+  font-size: 14px;
   font-family: 'Space Mono', monospace;
 }
 code {
@@ -26,10 +27,10 @@ img {
   color: #7FEFBD;
 }
 .highlight-2 {
-  color: #CBA135;
+  color: #cba135;
 }
 .highlight-3 {
-  color: #152347;
+  color: #181818;
 }
 hr {
   margin-top: 30px;
@@ -38,7 +39,7 @@ hr {
   width: 80px;
 }
 a {
-  color: #7FEFBD;
+  color: #5bc79f;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -48,6 +49,9 @@ a:hover{
 /* img {
   margin: 0 15px;
 } */
+.introComp {
+  font-size: 45px;
+}
 .helloHeather {
   margin-top: -30px;
 }
@@ -66,8 +70,12 @@ a:hover{
   display: flex;
   flex-direction: column;
 }
+.aboutPhoto {
+  width: 300px;
+  margin: 0 auto;
+}
 .projectBg {
-  background-color: #ffffff1f;
+  background-color: #ffffff1a;
   margin-bottom: 30px;
   padding: 10px;
 }
@@ -108,4 +116,14 @@ and (max-device-width : 667px) {
   }
 }
 
-
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .box {
+    width: 100%;
+  }
+  .aboutPhoto {
+    width: 90%;
+  }
+}
