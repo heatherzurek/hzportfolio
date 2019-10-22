@@ -4,7 +4,7 @@ body {
   margin: 70px 10px 55px 10px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #181818;
+  background-color: #152347;
   color: #EEEEEE;
   font-size: 14px;
   font-family: 'Space Mono', monospace;
@@ -24,13 +24,13 @@ img {
   margin: 0 auto;
 }
 .highlight {
-  color: #7FEFBD;
+  color: #fd49ff;
 }
 .highlight-2 {
-  color: #cba135;
+  color: #fff809;
 }
 .highlight-3 {
-  color: #181818;
+  color: #152347;
 }
 hr {
   margin-top: 30px;
@@ -61,7 +61,7 @@ a:hover{
 }
 .faChev {
   padding: 25px;
-  color: #CBA135;
+  color: #fff809;
 }
 .stackFormat {
   padding: 10px;
