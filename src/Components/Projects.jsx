@@ -13,7 +13,7 @@ export default function Projects() {
             <h2>Projects</h2>
         <div class="projSection"> 
             <div class="projectBg">
-            <img src={npsclone} />
+            <img src={npsclone} alt="national park clone website screenshot"/>
             <p class="paraFormat">This site allows you to see a list of the States and their co-ordinating national parks, in the future you
                 will be able to route to different pages in additional to the state and national parks page to learn more
                 about the national park.</p> 
@@ -21,7 +21,7 @@ export default function Projects() {
                 <a href="https://github.com/heatherzurek/angular-nps-clone">View Code</a> | <a href="https://npsclone.firebaseapp.com/">View Deployed Site</a>
             </div>
             <div class="projectBg">
-            <img src={pupster} />
+            <img src={pupster} alt="dog background"/>
             <p class="paraFormat">A web application that uses a quiz to query shelter pet profiles from a relational database and return
                 matches to users. Created on a four person team, my contributions included UI/UX, Database Calls and MVC
                 logic.</p>
@@ -29,8 +29,8 @@ export default function Projects() {
                 <a href="https://github.com/heatherzurek/pupster">View Code</a>
             </div>
             <div class="projectBg">
-           <img src={wanderlist1} />
-           <img src={wanderlist2} />
+           <img src={wanderlist1} alt="screenshot of website"/>
+           <img src={wanderlist2} alt="screenshot of website"/>
                 <p class="paraFormat">A web application that helps the user pack for camping trips based on terrain and season. It allows the user
                 to choose the time of year, where they'll be going and it will suggest packing lists based on their
                 selections. Created on a three person team, my contributions included UI/UX, and JavaScript logic.</p>
@@ -40,7 +40,7 @@ export default function Projects() {
             </div>
             <div class="projectBg">
             <h3><a href="https://settlers-ofcatan.firebaseapp.com/">Settlers of Catan</a></h3>
-            <img src={catan} />
+            <img src={catan} alt="photo of catan game"/>
             <p class="paraFormat">A functional webbased multi-player game, based on the board game Settlers of Catan. Group porject with 4 team
                 mates, done in 3 days. My contribution was mainly design and CSS focused.</p>
                 <p class="stackFormat">Stack: <span class="highlight-2">Angular, JavaScript, HTML, CSS</span></p>
