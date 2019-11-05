@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap');
 body {
   margin: 70px 10px 55px 10px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #152347;
-  color: #EEEEEE;
+  background-color: #343434;
+  color: #fcfaf1;
   font-size: 14px;
   font-family: 'Space Mono', monospace;
 }
@@ -24,13 +24,13 @@ img {
   margin: 0 auto;
 }
 .highlight {
-  color: #fd49ff;
+  color: #e6b31e;
 }
 .highlight-2 {
-  color: #fff809;
+  color: #b1d1c5;
 }
 .highlight-3 {
-  color: #152347;
+  color: #343434;
 }
 hr {
   margin-top: 30px;
@@ -39,12 +39,12 @@ hr {
   width: 80px;
 }
 a {
-  color: #5bc79f;
+  color: #b1d1c5;
   text-decoration: none;
   text-transform: uppercase;
 }
 a:hover{
-  color: #fd49ff;
+  color: #e6b31e;
 }
 /* img {
   margin: 0 15px;
@@ -53,7 +53,15 @@ a:hover{
   font-size: 45px;
 }
 .helloHeather {
-  margin-top: -30px;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 50px;
+}
+.engTitle {
+  margin-top: -40px;
+  margin-bottom: 75px;
+}
+.aboutSection {
+  margin-top: 75px;
 }
 .paraFormat {
   text-align: justify;
@@ -61,7 +69,7 @@ a:hover{
 }
 .faChev {
   padding: 25px;
-  color: #fff809;
+  color: #e6b31e;
 }
 .stackFormat {
   padding: 10px;
@@ -75,6 +83,7 @@ a:hover{
   margin: 0 auto;
 }
 .projectBg {
+  border-radius: 1%;
   background-color: #ffffff1a;
   margin-bottom: 30px;
   padding: 10px;
@@ -125,5 +134,9 @@ and (max-device-width : 667px) {
   }
   .aboutPhoto {
     width: 90%;
+  }
+  .helloHeather {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 40px;
   }
 }

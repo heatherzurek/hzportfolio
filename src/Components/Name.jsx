@@ -5,9 +5,7 @@ import useTypewriter from "react-typewriter-hook";
 import "../styles.css";
 
 const Typewriter = [
-  "Heather Zurek!",
-  "Heather Zurek!",
-  
+  "Heather Zurek!",  
 ];
 let index = 0;
 

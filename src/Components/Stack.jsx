@@ -11,6 +11,7 @@ export default function Stack() {
             <span>React</span>
             <span>C#</span>
             <span>.NET</span>
+            <span>Go</span>
             <span>Angular</span>
             <span>TypeScript</span>
             <span>SQL</span>
